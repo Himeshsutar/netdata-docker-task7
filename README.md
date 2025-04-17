@@ -33,14 +33,14 @@ Install **Netdata** using Docker and visualize real-time system and application 
 
 3.  **Monitor System Resources:**
 
-    📈 CPU Usage
+    📈 CPU Usage – Tracks real-time processor load.
 
-    💾 Memory Consumption
+    💾 Memory Consumption – Shows used, free, and cached RAM.
 
-    📀 Disk I/O
+    📀 Disk I/O – Monitors read/write speed and disk activity.
 
-    🐳 Docker Container Metrics
-    
+    🐳 Docker Container Metrics – Displays per-container resource usage.
+
 
 4. **Explore Alerts and Chart Panels**:
 
@@ -53,7 +53,7 @@ Install **Netdata** using Docker and visualize real-time system and application 
    Charts auto-refresh with live data
    
 
-6.  **Explore Logs in Netdata Container**:
+5.  **Explore Logs in Netdata Container**:
 
     Open a terminal and run:
 
