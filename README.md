@@ -1,4 +1,3 @@
-# netdata-docker-task7
 
 # ✅ TASK 7: Monitor System Resources Using Netdata
 
@@ -28,42 +27,58 @@ Install **Netdata** using Docker and visualize real-time system and application 
 
 2.  **Access the Netdata Dashboard**:
 
-Open your browser and go to:
+    Open your browser and go to:
 
-👉 http://localhost:19999
+    👉 http://localhost:19999
 
 3.  **Monitor System Resources:**
 
-📈 CPU Usage
+    📈 CPU Usage
 
-💾 Memory Consumption
+    💾 Memory Consumption
 
-📀 Disk I/O
+    📀 Disk I/O
 
-🐳 Docker Container Metrics
+    🐳 Docker Container Metrics
+    
 
-4.  **Explore Alerts and Chart Panels**:
+4. **Explore Alerts and Chart Panels**:
 
-Real-time visual charts for each metric
+   Real-time visual charts for each metric
 
-Built-in alert system with thresholds
+   Built-in alert system with thresholds
 
-Indicators for warning/critical states
+   Indicators for warning/critical states
 
-Charts auto-refresh with live data
+   Charts auto-refresh with live data
+   
 
-5.  **Explore Logs in Netdata Container**:
+6.  **Explore Logs in Netdata Container**:
 
-Open a terminal and run:
+    Open a terminal and run:
 
-'''
-docker exec -it netdata bash
-cd /var/log/netdata
-ls -lh
-cat netdata.log
-'''
+      ```
+      docker exec -it netdata bash
+      cd /var/log/netdata
+      ls -lh
+      cat netdata.log
+     ```
 
-  **Results**
+    **Results**
+
+   📈 Netdata Dashboard Metrics
+
+
+   ![Dashboard](https://github.com/user-attachments/assets/4fa47f25-a193-45b0-8f93-4f193ef06768)
+
+
+
+
+   🐳 Docker Container Monitoring
+
+
+
+   ![Container](https://github.com/user-attachments/assets/87b7f846-37b9-49a8-b77f-e6527884dd02)
 
 
   
